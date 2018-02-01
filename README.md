@@ -1,5 +1,5 @@
 # PaperFragOnboarding
-:octocat: PaperOnboarding is a material design slider
+:octocat: Quick guide creating PaperOnboarding, a material design slider
 
 Image
 -----
