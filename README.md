@@ -4,7 +4,9 @@
 Image
 -----
 
-<img src="images/floorLite.png" alt="phone image" width="200px" />
+<img src="Images/banks.png" alt="phone image" width="200px" />
+<img src="Images/hotels.png" alt="phone image" width="200px" />
+<img src="images/stores.png" alt="phone image" width="200px" />
 
 Setup Requirements
 ----------------
