@@ -3,13 +3,12 @@ package io.droidmarvin.paperfragonboarding;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import com.ramotion.paperonboarding.PaperOnboardingFragment;
 import com.ramotion.paperonboarding.PaperOnboardingPage;
-import com.ramotion.paperonboarding.listeners.PaperOnboardingOnRightOutListener;
+
 
 import java.util.ArrayList;
 
@@ -29,15 +28,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.fragment_container, onBoardingFragment);
         fragmentTransaction.commit();
 
-//        onBoardingFragment.setOnRightOutListener(new PaperOnboardingOnRightOutListener() {
-//            @Override
-//            public void onRightOut() {
-//                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-//                Fragment bf = new BlankFragment();
-//                fragmentTransaction.replace(R.id.fragment_container, bf);
-//                fragmentTransaction.commit();
-//            }
-//        });
     }
 
     private ArrayList<PaperOnboardingPage> getDataForOnboarding() {
