@@ -46,5 +46,5 @@ Found this project useful ❤️? Support by clicking the ⭐️ button on the u
 References
 ----------
 
-- Building an Online Presence System using Firebase Realtime Database - https://firebase.googleblog.com/2013/06/how-to-build-presence-system.html
+- [ Paper Fragment Onboarding ](https://github.com/Ramotion/paper-onboarding-android)
 
