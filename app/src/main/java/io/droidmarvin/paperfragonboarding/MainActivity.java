@@ -29,15 +29,15 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.fragment_container, onBoardingFragment);
         fragmentTransaction.commit();
 
-        onBoardingFragment.setOnRightOutListener(new PaperOnboardingOnRightOutListener() {
-            @Override
-            public void onRightOut() {
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                Fragment bf = new BlankFragment();
-                fragmentTransaction.replace(R.id.fragment_container, bf);
-                fragmentTransaction.commit();
-            }
-        });
+//        onBoardingFragment.setOnRightOutListener(new PaperOnboardingOnRightOutListener() {
+//            @Override
+//            public void onRightOut() {
+//                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//                Fragment bf = new BlankFragment();
+//                fragmentTransaction.replace(R.id.fragment_container, bf);
+//                fragmentTransaction.commit();
+//            }
+//        });
     }
 
     private ArrayList<PaperOnboardingPage> getDataForOnboarding() {
